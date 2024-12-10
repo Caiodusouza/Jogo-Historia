@@ -1,0 +1,11 @@
+/* src/styles/era.css */
+.era {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .era ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

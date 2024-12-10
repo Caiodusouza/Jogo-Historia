@@ -1,0 +1,101 @@
+/* Definindo a fonte e o fundo */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Fundo suave */
+  display: flex;
+  justify-content: center;  /* Centraliza na horizontal */
+  align-items: center;      /* Centraliza na vertical */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Centraliza e estiliza o container das opções */
+.time-machine, .era-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 250px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Alinha as opções de resposta no centro */
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centraliza na horizontal */
+  gap: 10px;
+}
+
+.options button {
+  width: 100%; /* Garante que o botão ocupe a largura disponível */
+  max-width: 300px; /* Limita o tamanho máximo do botão */
+}
+
+.explanation {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+h3 {
+  color: #007bff;
+  text-align: center;
+}
+
+/* Estilo da explicação */
+.explanation p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Estilo do botão de reinício */
+button:focus {
+  outline: none;
+}

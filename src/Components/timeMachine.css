@@ -1,0 +1,11 @@
+/* src/styles/timeMachine.css */
+.time-machine {
+    text-align: center;
+  }
+  
+  .eras button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
